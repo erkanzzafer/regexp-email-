@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<div id="icerik">
+	asdasdasdasaasddeneme@gmail.com
+</div>
+
+
+
+<script type="text/javascript">
+	
+
+var deger=document.getElementById("icerik").innerHTML;
+var desen=/[A-Z0-9a-z_.-]+@[A-Z0-9a-z\-]+\.[A-Za-z]{2,3}/;
+var sonuc=deger.match(desen);
+alert(sonuc);
+/*
+alttire 
+yeni satır hariç
+ve - olabilir
++ en az 1 defa girilebilir
+snra @ gelir
+- gelebilir
++ 1 veya birden fazla olabilir
+. olabilir
+com vb. gelebilir
+2 ya da 3 tane olabilir
+*/
+
+</script>
+</body>
+</html>
